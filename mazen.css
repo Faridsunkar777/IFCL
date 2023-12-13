@@ -141,6 +141,11 @@ h3{
   margin-left: 100px;
   border: 1px solid white;
 }
+ .servicepic .learnmore:hover {
+ background: #7c0e0a;
+ color: white;
+ box-shadow: -3px 3px 8px 0px rgba(0, 0, 0, 0.10), -11px 11px 15px 0px rgba(0, 0, 0, 0.09), -25px 25px 21px 0px rgba(0, 0, 0, 0.05), -44px 44px 25px 0px rgba(0, 0, 0, 0.01), -68px 68px 27px 0px rgba(0, 0, 0, 0.00);
+}
  
 .recentprojects{
   display: flex;
@@ -210,52 +215,69 @@ h3{
   
 }
 
-.letsworktogether{
-  /* text-align: center; */
+.letsworktogether {
+  display: inline-block;
   column-count: 2;
+  column-gap: 5rem;
+  margin-top: 40px;
+  margin-left: 750px;
 }
 
-
-.textfield{
-  /* display: flex;
-  justify-content: center; 
-  column-count: 2;
-  margin-left: 100px;
-  margin-right: 20px; */
-
-
-
-  
-  display: grid;
-  grid-template-areas: "a a";
-  gap: 100px;
-  grid-auto-columns: 100px;
-
-
-
-
-
-  
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 209px;
+  margin-top: 30px;
 }
 
-
-
-
-.emailInput{
-  margin-bottom: 50px;
+label {
+  font-size: 20px;
 }
 
-.submitBTM{
-  /* margin: ; */
-  /* width: 440px;
-  height: 78px; */
-  padding: 20px 100px;
-  background: #ECD674;
+.fnameInput,
+.lnameInput {
+  margin-bottom: 40px;
+}
+
+.emailInput {
+  margin-bottom: 100px;
+}
+
+.submitBtn {
+  padding: 20px 100px 20px 100px;
+  background: #ecd674;
   border-radius: 5px;
-  
-  
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  margin-left: -180px;
 }
 
+footer {
+  background: #7c0e0a;
+  text-align: center;
+  color: #ecd674;
+  padding: 50px;
+}
+.footer {
+  display: inline-block;
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 1px solid #ecd674;
+  column-rule-width: 2px;
+}
+.footer p {
+  font-size: 20px;
+}
+footer .copyright {
+  margin: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 
 
